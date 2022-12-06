@@ -68,7 +68,7 @@ public class InventoryController {
 	}
 
 	@DeleteMapping("/delete/{id}")
-	public ResponseEntity<ResponseMessage> deleteUser(@PathVariable Long id) {
+	public ResponseEntity<ResponseMessage> deleteProduct(@PathVariable Long id) {
 
 		ResponseMessage responseMessage;
 	
